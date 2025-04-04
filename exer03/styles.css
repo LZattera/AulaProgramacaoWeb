@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: Arial;
+}
+h1{
+    font-size: 28px;
+    color: black;
+}
+ul{
+    margin-bottom: 20px;
+}
+ul li{
+    padding-left: 10px;
+    
+}
+ol li{
+    padding-left: 10px;
+}
