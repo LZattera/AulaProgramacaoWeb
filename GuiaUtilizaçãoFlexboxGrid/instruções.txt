@@ -1,0 +1,204 @@
+Trabalho de Pesquisa – Guia de Utilização: Flexbox e Grid em CSS
+
+
+Neste trabalho, vocês irão se aprofundar nos dois principais recursos de layout modernos do CSS: Flexbox e Grid. O objetivo é que vocês estudem a fundo como cada um funciona, quando e como usá-los, e produzam um material educativo que sirva como guia prático de utilização, com explicações claras e exemplos funcionais.
+
+
+
+🎯 Objetivo do Trabalho
+Estudar os conceitos e propriedades do Flexbox e Grid Layout
+
+
+
+Criar um guia explicativo com exemplos de uso para cada item abordado
+
+
+
+Desenvolver exemplos práticos com HTML e CSS puro, comentando o código
+
+
+
+Produzir um conteúdo que possa ser usado como referência por outros alunos
+
+
+
+📑 O que deve ser entregue
+Um guia de utilização (PDF, site, apresentação ou página HTML) com:
+
+
+
+Explicações teóricas dos recursos
+
+
+
+Exemplos práticos com códigos comentados
+
+
+
+Imagens ou capturas de tela das implementações
+
+
+
+Organização clara, com título para cada tópico
+
+
+
+Um projeto prático (HTML + CSS) que demonstra a aplicação de Flexbox e Grid em situações reais, como layout de página, cards, menus etc.
+
+
+
+📚 Conteúdo a ser pesquisado e desenvolvido
+🔸 1. Introdução
+Explique o que são layouts CSS
+
+
+
+Mostre por que Flexbox e Grid substituem float, inline-block etc.
+
+
+
+Destaque a diferença entre Flexbox e Grid
+
+
+
+Dê exemplos de quando é mais indicado usar cada um
+
+
+
+🔸 2. Guia Flexbox
+Para cada item abaixo, você deverá:
+
+
+
+Explicar o que faz
+
+
+
+Mostrar a sintaxe correta
+
+
+
+Criar um exemplo prático funcional
+
+
+
+Comentar o código
+
+
+
+Incluir uma imagem de como fica no navegador
+
+
+
+Tópicos obrigatórios:
+
+display: flex
+
+
+
+flex-direction
+
+
+
+justify-content
+
+
+
+align-items / align-content
+
+
+
+flex-wrap
+
+
+
+gap
+
+
+
+flex-grow, flex-shrink, flex-basis
+
+
+
+order
+
+
+
+align-self
+
+
+
+📌 Desafio sugerido: Criar uma seção com cards que se alinham automaticamente lado a lado, e que quebrem de linha em telas menores.
+
+
+
+🔸 3. Guia Grid
+Mesma estrutura do Flexbox. Para cada propriedade, siga:
+
+
+
+Explicação → Sintaxe → Exemplo prático → Código comentado → Imagem
+
+
+
+Tópicos obrigatórios:
+
+display: grid
+
+
+
+grid-template-columns / rows
+
+
+
+gap, row-gap, column-gap
+
+
+
+grid-column, grid-row, grid-area
+
+
+
+grid-template-areas
+
+
+
+justify-items, align-items, place-items
+
+
+
+auto-fit, auto-fill e minmax()
+
+
+
+📌 Desafio sugerido: Criar uma grade de cards que se ajusta automaticamente ao tamanho da tela usando auto-fit e minmax.
+
+
+
+🔸 4. Comparativo entre Flexbox e Grid
+Monte uma tabela comparativa
+
+
+
+Dê exemplos de quando usar um ou outro
+
+
+
+Mostre como eles podem ser usados juntos em um mesmo layout
+
+
+
+📌 Desafio sugerido: Criar uma página com Grid no layout geral (header, menu lateral, conteúdo, footer) e Flexbox dentro das seções (ex: cards, botões, alinhamentos).
+
+
+
+💼 Entrega final
+Vocês podem entregar:
+
+
+
+Um documento em PDF ou site com os guias e capturas de tela
+
+
+
+Os arquivos .html e .css com exemplos práticos e comentários

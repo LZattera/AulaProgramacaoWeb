@@ -1,0 +1,67 @@
+Exercício: Criando um Jogo de Campo Minado com HTML, CSS, JS e jQuery
+Objetivo
+Você irá criar uma versão simples do clássico Campo Minado, utilizando tecnologias básicas da web. O projeto será dividido em três arquivos:
+
+index.html (estrutura HTML)
+style.css (estilos visuais)
+script.js (lógica do jogo)
+Este exercício tem como objetivo ensinar:
+
+Manipulação de DOM com jQuery
+Separação de responsabilidades (HTML/CSS/JS)
+Estilização condicional com CSS
+Criação de interatividade básica com JavaScript
+1. index.html
+Crie o arquivo index.html com os seguintes elementos:
+
+Um título para o jogo.
+Um formulário com:
+Um campo de input para indicar o número de linhas.
+Um campo de input para indicar o número de colunas.
+Um campo de input para indicar a quantidade de minas.
+Um botão para iniciar o jogo.
+Um contêiner div vazio onde o tabuleiro será exibido.
+Todos os scripts e estilos devem ser incluídos através de arquivos externos.
+
+
+
+2. style.css
+Crie um arquivo style.css para definir o visual do jogo. Algumas sugestões:
+
+Estilo para o tabuleiro (como uma grade).
+Estilo para células: não clicadas, clicadas, com bandeira, com foco do mouse.
+Cores inspiradas no jogo original (Windows XP ou versão clássica).
+Layout simples e centralizado na tela.
+3. script.js
+Implemente toda a lógica em um arquivo chamado script.js. Use jQuery para manipulação do DOM. A lógica deve incluir:
+
+Inicialização
+Ao clicar no botão "Iniciar Jogo", leia os valores do formulário.
+Gere dinamicamente o tabuleiro com o número de linhas e colunas indicado.
+Espalhe minas aleatoriamente com base na quantidade indicada.
+As células devem ser criadas com data- atributos para guardar informações como:
+Se tem mina
+Se já foi clicada
+Quantas minas próximas
+Interações
+Mouse hover: ao passar o mouse por uma célula ainda não clicada, aplique um estilo (ex: borda ou fundo colorido).
+Clique esquerdo:
+Marca a célula como clicada.
+Se for uma mina: explodir (fim de jogo).
+Se não for mina: exibe a quantidade de minas ao redor.
+Se não houver minas ao redor: revela células vizinhas automaticamente (algoritmo tradicional de flood fill).
+Clique com botão direito:
+Coloca ou remove uma bandeira na célula.
+Deve impedir o menu de contexto padrão do navegador (event.preventDefault()).
+Dicas Educativas
+Comente seu código explicando o que cada parte faz.
+Use boas práticas de organização.
+Nomeie classes e variáveis de forma clara e intuitiva.
+Separe visual, estrutura e lógica corretamente.
+Utilize $(document).ready() para garantir que o DOM esteja carregado antes de executar scripts.
+Extras (Opcional)
+Exibir mensagens de vitória ou derrota.
+Impedir ações em células já reveladas.
+Contador de minas restantes.
+Cronômetro.
+
