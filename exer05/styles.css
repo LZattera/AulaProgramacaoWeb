@@ -1,0 +1,38 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    height: 100%;
+    margin: 0;
+}
+/* 1. Cabeçalho (header):
+o Altura de 60px.
+o Fundo cinza escuro (#444).
+o Texto dentro do cabeçalho centralizado verticalmente, cor branca (#fff). */
+
+header{
+    height: 60px;
+    background-color: #444;
+    text-align: center;
+    color: #fff;
+}
+/* 
+2. Conteúdo Principal (main):
+o Texto de exemplo (lorem ipsum ou algo parecido).
+o Fonte de 18px, cor preta (#000), line-height 1.6.
+o Margem de 20px ao redor (pode usar margin: 20px;). */
+main{
+    font-size: 18px;
+    color: #000;
+    line-height: 1.6;
+    margin: 20px;
+}
+/* 
+3. Rodapé (footer):
+o Altura de 40px.
+o Fundo cinza claro (#ccc).
+o Texto centralizado, cor preta (#000). */
+footer{
+    height: 40px;
+    background-color: #ccc;
+    text-align: center;
+    color: #000;
+}

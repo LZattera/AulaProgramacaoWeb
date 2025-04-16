@@ -1,0 +1,31 @@
+.campos-input{
+    display: flex;
+    flex-direction: column;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: white;
+}
+body div{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+input, textarea{
+    width: 300px;
+    margin-bottom: 10px;
+}
+label{
+    font-style: italic;
+    color:black;
+}
+
+button{
+    background-color: #ccc;
+    border-radius: 4px;
+    padding: 8px 16px;
+}
