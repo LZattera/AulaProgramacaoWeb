@@ -1,0 +1,30 @@
+*{
+    margin: 0 auto;
+}
+.conteiner-geral{
+    max-width: 960px;
+    display: inline-block;
+}
+.card{
+    width: 30%;
+    margin: 1%;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+}
+.card h3{
+    font-size: 20px;
+    color: black;
+    margin-bottom: 10px;
+}
+.card p{
+    font-size: 16px;
+    color: darkgray;
+    margin-bottom: 10px;
+}
+.card button{
+    background-color: #ccc;
+    color: black;
+    padding: 8px 12px;
+}
