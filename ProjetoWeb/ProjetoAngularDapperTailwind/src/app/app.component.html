@@ -3,8 +3,11 @@
     <aside class="w-64 bg-white shadow-md p-4">
       <h2 class="text-xl font-bold mb-4 text-blue-600">Banco de Questões</h2>
       <nav class="flex flex-col space-y-2">
-        <a routerLink="/questoes" class="text-gray-700 hover:text-blue-600"> Questões</a>
-        <a routerLink="/provas" class="text-gray-700 hover:text-blue-600">Provas</a>
+        <a routerLink="/questoes" routerLinkActive="bg-blue-500 text-white" class="px-4 py-2 rounded hover:bg-blue-100 transition-colors"
+        [routerLinkActiveOptions]="{ exact: true }"> Questões</a>
+        <a routerLink="/provas" routerLinkActive="bg-blue-500 text-white" class="px-4 py-2 rounded hover:bg-blue-100 transition-colors"
+        [routerLinkActiveOptions]="{ exact: true }">Provas</a>
+       
       </nav>
     </aside>
   
