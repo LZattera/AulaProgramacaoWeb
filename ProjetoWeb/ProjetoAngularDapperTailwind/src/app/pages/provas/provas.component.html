@@ -22,39 +22,41 @@
       
   
     <!-- Tabela responsiva -->
-    <div class="overflow-x-auto rounded-lg shadow">
-      <table class="min-w-full table-auto border-collapse bg-white">
-        <thead>
-          <tr class="bg-blue-100 text-gray-700 text-left">
-            <th class="px-4 py-3 border-b">Enunciado</th>
-            <th class="px-4 py-3 border-b">Matéria</th>
-            <th class="px-4 py-3 border-b">Assunto</th>
-            <th class="px-4 py-3 border-b text-center">Ações</th>
+    <!-- Container da Tabela com rolagem interna -->
+  <div class="rounded-lg shadow max-h-[450px] overflow-y-auto">
+    <table class="min-w-full table-auto border-collapse bg-white">
+      <thead>
+        <tr class="bg-blue-100 text-gray-700 text-left">
+          <th class="px-4 py-3 border-b">Enunciado</th>
+          <th class="px-4 py-3 border-b">Matéria</th>
+          <th class="px-4 py-3 border-b">Assunto</th>
+          <th class="px-4 py-3 border-b text-center">Ações</th>
+        </tr>
+      </thead>
+      <tbody class="">
+        @for (questao of questoes; track $index) {
+          <tr class="hover:bg-gray-50 border-b">
+            <td class="px-4 py-2 max-w-xs truncate">{{ questao.enunciado }}</td>
+            <td class="px-4 py-2">{{ questao.materia }}</td>
+            <td class="px-4 py-2">{{ questao.assunto }}</td>
+            <td class="px-4 py-2 text-center">
+              <div class="flex flex-wrap justify-center gap-2">
+                <button
+                  class="bg-yellow-500 hover:bg-yellow-600 text-white font-medium py-1 px-3 rounded-md text-sm"
+                  [routerLink]="['/provas', questao.id]">
+                  Editar
+                </button>
+                <button
+                  class="bg-red-500 hover:bg-red-600 text-white font-medium py-1 px-3 rounded-md text-sm">
+                  Excluir
+                </button>
+              </div>
+            </td>
           </tr>
-        </thead>
-        <tbody>
-          @for (questao of questoes; track $index) {
-            <tr class="hover:bg-gray-50 border-b">
-              <td class="px-4 py-2 max-w-xs truncate">{{ questao.enunciado }}</td>
-              <td class="px-4 py-2">{{ questao.materia }}</td>
-              <td class="px-4 py-2">{{ questao.assunto }}</td>
-              <td class="px-4 py-2 text-center">
-                <div class="flex flex-wrap justify-center gap-2">
-                  <button
-                    class="bg-yellow-500 hover:bg-yellow-600 text-white font-medium py-1 px-3 rounded-md text-sm"
-                    [routerLink]="['/provas', questao.id]">
-                    Editar
-                  </button>
-                  <button
-                    class="bg-red-500 hover:bg-red-600 text-white font-medium py-1 px-3 rounded-md text-sm">
-                    Excluir
-                  </button>
-                </div>
-              </td>
-            </tr>
-          }
-        </tbody>
-      </table>
-    </div>
+        }
+      </tbody>
+    </table>
+  </div>
+
   </div>
   

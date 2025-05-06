@@ -17,6 +17,20 @@ export class ProvasComponent {
   questoes: Provas[] = [
     {enunciado:"Enunciado 01", materia: "Web", assunto:"assunto 01"},
     {enunciado:"teste Enunciado", materia: "Física", assunto:"assunto 02"},
+    {enunciado:"teste Enunciado", materia: "Física", assunto:"assunto 02"},
+    {enunciado:"teste Enunciado", materia: "Física", assunto:"assunto 02"},
+    {enunciado:"teste Enunciado", materia: "Física", assunto:"assunto 02"},
+    {enunciado:"teste Enunciado", materia: "Física", assunto:"assunto 02"},
+    {enunciado:"teste Enunciado", materia: "Física", assunto:"assunto 02"},
+    {enunciado:"teste Enunciado", materia: "Física", assunto:"assunto 02"},
+    {enunciado:"teste Enunciado", materia: "Física", assunto:"assunto 02"},
+    {enunciado:"teste Enunciado", materia: "Física", assunto:"assunto 02"},
+    {enunciado:"teste Enunciado", materia: "Física", assunto:"assunto 02"},
+    {enunciado:"teste Enunciado", materia: "Física", assunto:"assunto 02"},
+    {enunciado:"teste Enunciado", materia: "Física", assunto:"assunto 02"},
+    {enunciado:"teste Enunciado", materia: "Física", assunto:"assunto 02"},
+    {enunciado:"teste Enunciado", materia: "Física", assunto:"assunto 02"},
+    {enunciado:"teste Enunciado", materia: "Física", assunto:"assunto 02"},
   ]
 
   search(event:Event){
