@@ -1,0 +1,16 @@
+<div class="flex min-h-screen bg-gray-100">
+    <!-- Sidebar -->
+    <aside class="w-64 bg-white shadow-md p-4">
+      <h2 class="text-xl font-bold mb-4 text-blue-600">Banco de Questões</h2>
+      <nav class="flex flex-col space-y-2">
+        <a routerLink="/questoes" class="text-gray-700 hover:text-blue-600"> Questões</a>
+        <a routerLink="/provas" class="text-gray-700 hover:text-blue-600">Provas</a>
+      </nav>
+    </aside>
+  
+    <!-- Conteúdo Principal -->
+    <main class="flex-1 p-6">
+      <router-outlet></router-outlet>
+    </main>
+  </div>
+  
