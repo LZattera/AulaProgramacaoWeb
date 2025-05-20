@@ -45,7 +45,7 @@ export class ViewQuestoesComponent {
     
     console.log(this.frm.value);
 
-    this.usuarioService.getUsuario(1).subscribe({});
+    this.usuarioService.saveQuestao(this.frm.value).subscribe({});
 
 
   }
