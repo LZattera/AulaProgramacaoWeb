@@ -1,18 +1,22 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
+import { FormBuilder, FormControl,  FormGroup,  ReactiveFormsModule } from '@angular/forms';
 import { Questoes } from '../../models/Questoes';
 
 @Component({
   selector: 'app-questoes',
   imports: [
     RouterModule,
-    CommonModule 
+    CommonModule,
+    ReactiveFormsModule, 
   ],
   templateUrl: './questoes.component.html',
   styleUrl: './questoes.component.css'
 })
 export class QuestoesComponent {
+
+
 
   questoes: Questoes[] = [
     {enunciado:"Enunciado 01", materia: "Web", tipo:Tipo.multiplaEscolha, assunto:"assunto 01"},

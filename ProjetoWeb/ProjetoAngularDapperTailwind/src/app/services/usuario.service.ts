@@ -14,4 +14,8 @@ export class UsuarioService {
     private http: HttpClient
   ) { }
 
+  getUsuario(id:number): Observable<any> {
+    return this.http.get(`${this.ApiUrl}questao/${id}`);
+  }
+
 }
